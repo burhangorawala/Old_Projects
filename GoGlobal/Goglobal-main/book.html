@@ -1,0 +1,89 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>book</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>`
+
+<body>
+    <section class="header">
+
+        <a href="home.html" class="logo">Travel</a>
+        <nav class="navbar">
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="packages.html">packages</a>
+            <a href="book.html">book</a>
+            <a href="feedback.html">feedback</a>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </section>
+    <div class="heading" style="background:url(img/69.jpg) no-repeat">
+        <h1>Book now</h1>
+                
+    </div>
+    <section class="booking">
+
+        <h1 class="heading-title">Book My Trip</h1>
+        <form action="book_form.php" method="post" class="book-form">
+        <div class="flex">
+            <div class="inputBox">
+                <span>name :</span>
+                <input type="text" placeholder="enter your name" name="name" required>
+            </div>
+            <div class="inputBox">
+                <span>email :</span>
+                <input type="email" placeholder="enter your email" name="email" required>
+            </div>
+            <div class="inputBox">
+                <span>phone :</span>
+                <input type="number" placeholder="enter your number" name="phone" required>
+            </div>
+            <div class="inputBox">
+                <span>address :</span>
+                <input type="text" placeholder="enter your address" name="address">
+            </div>
+            <div class="inputBox">
+                <span> places :</span>
+                <input type="text" placeholder="you want to visit" name="location">
+            </div>
+            <div class="inputBox">
+                <span>Total :</span>
+                <input type="number" placeholder="no of persons" name="guests">
+            </div>
+            <div class="inputBox">
+                <span>Arrival :</span>
+                <input type="date"  name="Arrival">
+            </div>
+            <div class="inputBox">
+                <span>Leaving :</span>
+                <input type="date" name="Leaving">
+            </div>
+        </div>
+       <div class="abcd"><input type="Submit" value="submit" class="btn" name="send"></div>
+
+
+    </form>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script src="js/script.js"></script>
+
+    
+    </body>
+    </html>

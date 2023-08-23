@@ -1,0 +1,119 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="forms-container">
+            <div class="signin-signup">
+                <form action="login_form.php" method="post" class="sign-in-form">
+                    <h2 class="title">Sign in</h2>
+                    <div class="input-feild">
+                        <i class="fas fa-user"></i>
+                        <input type="text"  name = "name" placeholder="username" required>
+                    </div>
+                    <div class="input-feild">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name = "password" placeholder="password" required>
+                    </div>
+                   <input type="submit" href="./home.html" value='Login'  class="btn solid"  name="login"> 
+                    <p class=social-text>or sign in wih social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i> 
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                            </a>
+                     <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                           </a>
+                      <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </form>
+                <form action="db_conn.php" method="post" class="sign-up-form">
+                    <h2 class="title">Sign up</h2>
+                    <div class="input-feild">
+                        <i class="fas fa-user"></i>
+                        <input type="text" name = "name"placeholder="username" required>
+                    </div>
+                    <div class="input-feild">
+                        <i class="fas fa-lock"></i>
+                        <input type="password"name = "password" placeholder="password" required>
+                    </div>
+                    <div class="input-feild">
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" name = "email" placeholder="email" required>
+                    </div>
+                    <input type="submit" href="home.html" value="sign up" class="btn solid" name="sign">
+                    <p class=social-text>or sign up wih social platforms</p>
+                    <div class="social-media">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-twitter"></i>
+                            </a>
+                     <a href="#" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                           </a>
+                      <a href="#" class="social-icon">
+                        <i class="fab fa-linkedin"></i>
+                        </a>
+
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="panels-container">
+            <div class="panel left-panel">
+                <div class="content">
+                    <h1>New here ?</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel voluptas, 
+                        tempore iure dolor at similique adipisci debitis provident deleniti doloribus.</p>
+                        <button class="btn transperent" id="sign-up-btn">sign-up</button>
+  
+                    </div>
+                    <img src="" class="image" alt="">
+            </div>
+          <div class="panel right-panel">
+                <div class="content">
+                    <h3>one of us ?</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel voluptas, 
+                        tempore iure dolor at similique adipisci debitis provident deleniti doloribus.</p>
+                        <button class="btn transperent" id="sign-in-btn">sign-in</button>
+  
+                    </div>
+                    <img src="" class="image" alt="">
+            </div>
+
+        </div>
+    </div>
+   
+
+
+   <script src="js/login/abc.js"></script>
+</body>
+
+</html>
